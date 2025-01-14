@@ -1,5 +1,5 @@
 
-# Blockchain Project
+# Bitcoin From Scratch
 
 ## Overview
 
