@@ -48,13 +48,13 @@ To get started with the project, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/blockchain-project.git
+   git clone https://github.com/Hammadh7/bitcoin-from-scratch.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd blockchain-project
+   cd bitcoin-from-scratch
    ```
 
 3. **Install dependencies**:
