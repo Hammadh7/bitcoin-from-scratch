@@ -17,21 +17,29 @@ This project is a simple implementation of a blockchain-based system. It include
 Here’s an overview of the directory structure for the project:
 
 ```
-/blockchain-project
-├── /chain-util
-│   ├── index.js               # Utility functions for cryptography, hashing, etc.
-├── /config
-│   └── index.js               # Configuration settings (e.g., initial balance, network settings)
-├── /transactions
-│   ├── transaction.js         # Transaction class that handles creating and verifying transactions
-│   └── transaction-pool.js    # Manages the pool of unconfirmed transactions
-├── /wallet
-│   ├── index.js               # Wallet class that generates keys and creates transactions
-├── /tests
-│   ├── wallet.test.js         # Unit tests for wallet class and transactions
-│   ├── transaction.test.js    # Unit tests for transactions and validation
-├── package.json               # Node.js dependencies and scripts
-└── README.md                  # Project overview, setup instructions, and documentation
+/bitcoin-from-scratch  
+├── /app  
+│   ├── index.js  
+│   └── p2p-server.js  
+├── /blockchain  
+│   ├── block.js               # Handles the structure and validation of blocks in the blockchain  
+│   ├── block.test.js          # Unit tests for the block functionality  
+│   ├── index.js               # Main entry for the blockchain module  
+│   └── index.test.js          # Unit tests for blockchain operations  
+├── /wallet  
+│   ├── index.js               # Wallet class that generates keys and manages balances  
+│   ├── transaction.js         # Handles creating and verifying transactions  
+│   ├── transaction-pool.js    # Manages the pool of unconfirmed transactions  
+│   ├── transaction.test.js    # Unit tests for transaction validation and creation  
+│   └── transaction-pool.test.js  # Unit tests for transaction pool management  
+├── /chain-util  
+│   ├── chain-util.js          # Utility functions for cryptography, hashing, and digital signatures  
+├── /config  
+│   ├── config.js              # Configuration settings (e.g., network, initial balances)  
+├── package.json               # Node.js dependencies and scripts  
+├── package-lock.json          # Locked versions of dependencies for consistency  
+└── README.md                  # Project overview, setup instructions, and documentation  
+
 ```
 
 ### Description of Files:
