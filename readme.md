@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a simple implementation of a blockchain-based system. It includes the creation of a wallet, transactions, and a transaction pool, allowing users to securely send and receive cryptocurrencies. The core features include wallet generation, transaction signing, and validation using public-private key pairs. The project demonstrates key blockchain principles such as decentralized transactions and cryptographic security.
+This project is a simple implementation of a Bitcoin system. It includes the creation of a wallet, transactions, and a transaction pool, allowing users to securely send and receive cryptocurrencies. The core features include wallet generation, transaction signing, and validation using public-private key pairs. The project demonstrates key blockchain principles such as decentralized transactions and cryptographic security.
 
 ## Features
 
@@ -42,7 +42,7 @@ Here’s an overview of the directory structure for the project:
 
 ```
 
-### Description of Files:
+[comment]: <### Description of Files:
 
 1. **`/chain-util`**: Contains utility functions related to cryptography, including key pair generation, hashing, and signature verification.
    - `index.js`: Functions for generating public/private keys, hashing transaction data, and verifying signatures.
@@ -63,7 +63,7 @@ Here’s an overview of the directory structure for the project:
 
 6. **`package.json`**: Contains project dependencies and scripts, including tests and build configurations.
 
-7. **`README.md`**: Provides an overview of the project, installation instructions, and how to run the project.
+7. **`README.md`**: Provides an overview of the project, installation instructions, and how to run the project.>
 
 ## Installation
 
