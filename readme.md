@@ -41,30 +41,6 @@ Here’s an overview of the directory structure for the project:
 └── README.md                  # Project overview, setup instructions, and documentation  
 
 ```
-
-[comment]: <### Description of Files:
-
-1. **`/chain-util`**: Contains utility functions related to cryptography, including key pair generation, hashing, and signature verification.
-   - `index.js`: Functions for generating public/private keys, hashing transaction data, and verifying signatures.
-
-2. **`/config`**: Stores configuration variables such as the initial balance for the wallet and network settings.
-   - `index.js`: Configuration for setting up initial values like `INITIAL_BALANCE`.
-
-3. **`/transactions`**: Contains the logic for creating, signing, and verifying transactions.
-   - `transaction.js`: Defines the `Transaction` class with methods for creating new transactions, signing them, and verifying them.
-   - `transaction-pool.js`: Manages the pool of unconfirmed transactions.
-
-4. **`/wallet`**: Contains logic for managing a user's wallet, including key pair generation, transaction creation, and signing.
-   - `index.js`: Contains the `Wallet` class, where the user can create a wallet, sign transactions, and manage their balance.
-
-5. **`/tests`**: Unit tests for various components of the project to ensure the functionality is working as expected.
-   - `wallet.test.js`: Tests for the wallet class, including transaction creation, balance updates, etc.
-   - `transaction.test.js`: Tests for transaction-related functionality, such as signing and verifying transactions.
-
-6. **`package.json`**: Contains project dependencies and scripts, including tests and build configurations.
-
-7. **`README.md`**: Provides an overview of the project, installation instructions, and how to run the project.>
-
 ## Installation
 
 To get started with the project, follow these steps:
